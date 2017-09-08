@@ -1,2 +1,7 @@
+;(ns predicates-test
+;  (:use iloveponies.tests.predicates))
+
 (ns predicates-test
-  (:use iloveponies.tests.predicates))
+  (:require [predicates :refer :all]))
+
+(require 'iloveponies.tests.predicates :reload)
